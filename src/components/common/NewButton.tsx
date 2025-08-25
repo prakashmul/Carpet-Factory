@@ -1,18 +1,18 @@
 import React from "react";
 
-type ButtonProps = {
+type NewButtonProps = {
   text: string;
   onClick?: () => void;
   type?: "button" | "submit" | "reset";
   className?: string;
 };
 
-const Button: React.FC<ButtonProps> = ({ type = "button", text, onClick, className }) => {
+const NewButton: React.FC<NewButtonProps> = ({ type = "button", text, onClick, className }) => {
   return (
     <button
       type={type}
       onClick={onClick}
-      className={`bg-[#F24080] text-white hover:brightness-70 duration-150 hover:shadow-inner 
+      className={`bg-[#41246D] text-white hover:brightness-70 duration-150 hover:shadow-inner 
                   transform transition-all px-5 py-2 rounded-4xl ${className || ""}`}
     >
       {text}
@@ -20,4 +20,4 @@ const Button: React.FC<ButtonProps> = ({ type = "button", text, onClick, classNa
   );
 };
 
-export default Button;
+export default NewButton;
