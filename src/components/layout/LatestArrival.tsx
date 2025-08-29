@@ -15,7 +15,7 @@ export default function LatestArrivals() {
       <div className="w-4/5 mx-auto px-4">
         <h1 className="text-3xl font-bold mb-12 text-center">Latest Arrivals</h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {carpets.map((carpet) => (
             <div
               key={carpet.id}

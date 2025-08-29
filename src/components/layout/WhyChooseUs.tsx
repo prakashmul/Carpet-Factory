@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
       <div className="w-4/5 mx-auto text-center">
         <h2 className="text-3xl font-bold mb-12">WHY CHOOSE US?</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {reasons.map((reason, i) => (
             <div key={i} className="flex flex-col items-center text-center">
               {/* Gradient Circle Border */}

@@ -4,7 +4,7 @@ const Team: React.FC = () => {
   return (
     <section id="team" className="text-center">
       <h2 className="text-2xl font-semibold mb-10">Meet Our Team</h2>
-      <div className="grid md:grid-cols-3 gap-12">
+      <div className="grid grid-cols-3 md:grid-cols-3 gap-6">
         {/* Team Member */}
         <div className="flex flex-col items-center">
           <img

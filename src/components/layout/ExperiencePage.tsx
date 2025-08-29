@@ -12,7 +12,7 @@ const ExperiencePage: React.FC = () => {
 
   return (
     <div className="mt-16 mb-16 md:w-[4/5] md:mx-auto flex items-center justify-center bg-gray">
-      <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4 md:gap-6 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 md:gap-12 gap-6">
         {stats.map((stat, index) => (
           <ExperienceCard
             key={index}
