@@ -13,49 +13,98 @@ const products: Product[] = [
       "https://www.revivalrugs.com/cdn/shop/files/Euna_overhead_carousel.png?v=1751015938&width=580",
     name: "Washable Eunha Rug in Berry",
     link: "https://www.revivalrugs.com/collections/hana-collection",
-    buttonText: "SHOP MORE COLORS",
+    buttonText: "SEE MORE",
   },
   {
     imageSrc:
       "https://www.revivalrugs.com/cdn/shop/files/image-14.png?v=1726760440&width=580",
     name: "Washable Helen Rug",
     link: "https://www.revivalrugs.com/products/washable-wool-hand-knotted-rug-helen",
-    buttonText: "SHOP MORE",
+    buttonText: "SEE MORE",
   },
   {
     imageSrc:
       "https://www.revivalrugs.com/cdn/shop/files/image-12.png?v=1726404124&width=580",
     name: "Wool Milord Rug",
     link: "https://www.revivalrugs.com/products/handknotted-rug-milord?variant=42587589050467",
-    buttonText: "SHOP ALL EDITH",
+    buttonText: "SEE MORE",
   },
   {
     imageSrc:
       "https://www.revivalrugs.com/cdn/shop/files/image_17.png?v=1719472237&width=580",
     name: "Jute Crimson Hart",
     link: "https://www.revivalrugs.com/collections/hart-jute-rugs",
-    buttonText: "SHOP ALL JUTE HART",
+    buttonText: "SEE MORE",
   },
   {
     imageSrc:
       "https://www.revivalrugs.com/cdn/shop/files/image_16.png?v=1719145447&width=580",
     name: "Washable Helen Rug",
     link: "https://www.revivalrugs.com/products/washable-wool-hand-knotted-rug-helen",
-    buttonText: "SHOP ALL COLORS",
+    buttonText: "SEE MORE",
   },
   {
     imageSrc:
       "https://www.revivalrugs.com/cdn/shop/files/Euna_overhead_carousel.png?v=1751015938&width=580",
     name: "Washable Eunha Rug in Berry",
     link: "https://www.revivalrugs.com/collections/hana-collection",
-    buttonText: "SHOP MORE COLORS",
+    buttonText: "SEE MORE",
   },
   {
     imageSrc:
       "https://www.revivalrugs.com/cdn/shop/files/image-14.png?v=1726760440&width=580",
     name: "Washable Helen Rug",
     link: "https://www.revivalrugs.com/products/washable-wool-hand-knotted-rug-helen",
-    buttonText: "SHOP MORE",
+    buttonText: "SEE MORE",
+  },
+  {
+    imageSrc:
+      "https://www.revivalrugs.com/cdn/shop/files/Euna_overhead_carousel.png?v=1751015938&width=580",
+    name: "Washable Eunha Rug in Berry",
+    link: "https://www.revivalrugs.com/collections/hana-collection",
+    buttonText: "SEE MORE",
+  },
+  {
+    imageSrc:
+      "https://www.revivalrugs.com/cdn/shop/files/image-14.png?v=1726760440&width=580",
+    name: "Washable Helen Rug",
+    link: "https://www.revivalrugs.com/products/washable-wool-hand-knotted-rug-helen",
+    buttonText: "SEE MORE",
+  },
+  {
+    imageSrc:
+      "https://www.revivalrugs.com/cdn/shop/files/image-12.png?v=1726404124&width=580",
+    name: "Wool Milord Rug",
+    link: "https://www.revivalrugs.com/products/handknotted-rug-milord?variant=42587589050467",
+    buttonText: "SEE MORE",
+  },
+  {
+    imageSrc:
+      "https://www.revivalrugs.com/cdn/shop/files/image_17.png?v=1719472237&width=580",
+    name: "Jute Crimson Hart",
+    link: "https://www.revivalrugs.com/collections/hart-jute-rugs",
+    buttonText: "SEE MORE",
+  },
+  {
+    imageSrc:
+      "https://www.revivalrugs.com/cdn/shop/files/image_16.png?v=1719145447&width=580",
+    name: "Washable Helen Rug",
+    link: "https://www.revivalrugs.com/products/washable-wool-hand-knotted-rug-helen",
+    buttonText: "SEE MORE",
+  },
+  {
+    imageSrc:
+      "https://www.revivalrugs.com/cdn/shop/files/Euna_overhead_carousel.png?v=1751015938&width=580",
+    name: "Washable Eunha Rug in Berry",
+    link: "https://www.revivalrugs.com/collections/hana-collection",
+    buttonText: "SEE MORE",
+  },
+  {
+    imageSrc:
+      "https://www.revivalrugs.com/cdn/shop/files/image-14.png?v=1726760440&width=580",
+    name: "Washable Helen Rug",
+    link: "https://www.revivalrugs.com/products/washable-wool-hand-knotted-rug-helen",
+    buttonText: "SEE MORE",
   },
 ];
 

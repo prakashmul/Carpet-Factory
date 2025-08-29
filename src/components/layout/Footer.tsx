@@ -41,7 +41,7 @@ export const Footer = () => {
                     <h3 className="text-lg font-semibold mb-4 ml-5">Contact</h3>
                     <p className="text-sm text-neutral-300 mb-2">📍 Lalitpur, Nepal</p>
                     <p className="text-sm text-neutral-300 mb-2">📞 +977-9801037585</p>
-                    <p className="text-sm text-neutral-300">✉️ info@yourcompany.com</p>
+                    <p className="text-sm text-neutral-300">✉️ moderndesignnepal@gmail.com</p>
                 </div>
 
                 {/* Follow Us */}

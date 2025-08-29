@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/f
 interface FormData {
     firstName: string;
     lastName: string;
-    company: string;
+    address: string;
     email: string;
     phone: string;
     message: string;
@@ -15,7 +15,7 @@ export default function ContactForm() {
     const [formData, setFormData] = useState<FormData>({
         firstName: "",
         lastName: "",
-        company: "",
+        address: "",
         email: "",
         phone: "",
         message: "",
@@ -78,9 +78,9 @@ export default function ContactForm() {
 
                         <input
                             type="text"
-                            name="company"
-                            placeholder="Company Name"
-                            value={formData.company}
+                            name="address"
+                            placeholder="Address"
+                            value={formData.address}
                             onChange={handleChange}
                             className="border rounded-lg p-2 w-full focus:ring focus:ring-blue-300"
                         />
@@ -140,29 +140,29 @@ export default function ContactForm() {
 
                         <div>
                             <h3 className="font-semibold">Visit us</h3>
-                            <p className="text-sm mt-1">Come say hello at our office HQ.</p>
-                            <p className="text-sm">67 Wisteria Way Croydon South VIC 3136 AU</p>
+                            <p className="text-sm mt-1">Come visit our office.</p>
+                            <p className="text-sm">Jana Path, Lalitpur 44709</p>
                         </div>
 
                         <div>
                             <h3 className="font-semibold">Chat to us</h3>
                             <p className="text-sm mt-1">Our friendly team is here to help.</p>
-                            <p className="text-sm">hello@paysphero.com</p>
+                            <p className="text-sm">moderndesignnepal@gmail.com</p>
                         </div>
 
                         <div>
                             <h3 className="font-semibold">Call us</h3>
-                            <p className="text-sm mt-1">Mon-Fri from 8am to 5pm</p>
-                            <p className="text-sm">(+995) 555-55-55-55</p>
+                            <p className="text-sm mt-1">Sun-Fri from 8am to 8pm</p>
+                            <p className="text-sm">(+977) 9801037585</p>
                         </div>
 
                         <div>
                             <h3 className="font-semibold">Social media</h3>
                             <div className="flex space-x-4 mt-2">
-                                <FaFacebookF className="cursor-pointer hover:text-gray-200" />
-                                <FaLinkedinIn className="cursor-pointer hover:text-gray-200" />
-                                <FaInstagram className="cursor-pointer hover:text-gray-200" />
-                                <FaTwitter className="cursor-pointer hover:text-gray-200" />
+                                <FaFacebookF className="cursor-pointer text-gray-600 hover:text-blue-600 transition-colors duration-300" />
+                                <FaLinkedinIn className="cursor-pointer text-gray-600 hover:text-blue-500 transition-colors duration-300" />
+                                <FaInstagram className="cursor-pointer text-gray-600 hover:text-pink-500 transition-colors duration-300" />
+                                <FaTwitter className="cursor-pointer text-gray-600 hover:text-sky-400 transition-colors duration-300" />
                             </div>
                         </div>
                     </div>
