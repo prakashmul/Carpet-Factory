@@ -28,7 +28,7 @@ export const products: Product[] = [
     name: "Custom Solid Color Rabbit Fur Jacquard Carpet",
     mainType: "Faux Rabbit Fur Carpet",
     subType: "Jacquard",
-    image: "src/assets/img/products/slider1.jpg",
+    image: "assets/img/products/slider1.jpg",
     description:
       "A premium faux rabbit fur jacquard carpet with soft canvas backing and elegant design.",
   },
@@ -37,7 +37,7 @@ export const products: Product[] = [
     name: "Luxury Fluffy PV Fur Carpet",
     mainType: "PV Fur Fluffy Carpet",
     subType: "Luxury Fluffy",
-    image: "src/assets/img/products/slider2.jpg",
+    image: "assets/img/products/slider2.jpg",
     description:
       "Thick and cozy fluffy PV fur carpet, perfect for living rooms and bedrooms.",
   },

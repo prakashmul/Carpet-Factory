@@ -4,19 +4,19 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const slides = [
   {
     id: 1,
-    image: "/src/assets/img/home/slider1.jpg",
+    image: "assets/img/home/slider1.jpg",
     title: "Luxury Handmade Carpets",
     text: "Crafted with tradition and elegance for your home.",
   },
   {
     id: 2,
-    image: "/src/assets/img/home/slider2.jpg",
+    image: "assets/img/home/slider2.jpg",
     title: "Modern Carpet Collections",
     text: "Perfect blend of comfort and contemporary style.",
   },
   {
     id: 3,
-    image: "/src/assets/img/home/slider3.jpg",
+    image: "assets/img/home/slider3.jpg",
     title: "Durable & Stylish",
     text: "Designed to last for generations.",
   },

@@ -1,12 +1,12 @@
 const carpets = [
-  { id: 1, name: "Persian Elegance", image: "/src/assets/img/home/1.jpeg" },
-  { id: 2, name: "Modern Geometric", image: "/src/assets/img/home/2.jpeg" },
-  { id: 3, name: "Handmade Classic", image: "/src/assets/img/home/3.jpeg" },
-  { id: 4, name: "Vintage Charm", image: "/src/assets/img/home/4.jpeg" },
-  { id: 5, name: "Luxury Soft", image: "/src/assets/img/home/5.jpeg" },
-  { id: 6, name: "Colorful Delight", image: "/src/assets/img/home/6.jpeg" },
-  { id: 7, name: "Eco Natural", image: "/src/assets/img/home/7.jpeg" },
-  { id: 8, name: "Royal Heritage", image: "/src/assets/img/home/8.jpeg" },
+  { id: 1, name: "Persian Elegance", image: "assets/img/home/1.jpeg" },
+  { id: 2, name: "Modern Geometric", image: "assets/img/home/2.jpeg" },
+  { id: 3, name: "Handmade Classic", image: "assets/img/home/3.jpeg" },
+  { id: 4, name: "Vintage Charm", image: "assets/img/home/4.jpeg" },
+  { id: 5, name: "Luxury Soft", image: "assets/img/home/5.jpeg" },
+  { id: 6, name: "Colorful Delight", image: "assets/img/home/6.jpeg" },
+  { id: 7, name: "Eco Natural", image: "assets/img/home/7.jpeg" },
+  { id: 8, name: "Royal Heritage", image: "assets/img/home/8.jpeg" },
 ];
 
 export default function LatestArrivals() {

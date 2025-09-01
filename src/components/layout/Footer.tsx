@@ -7,7 +7,7 @@ export const Footer = () => {
 
                 {/* Newsletter */}
                 <div>
-                    <img src="/src/assets/img/logo.jpeg" alt="Logo" className="h-12 w-20 mb-4" />
+                    <img src="assets/img/logo.jpeg" alt="Logo" className="h-12 w-20 mb-4" />
                     <p className="mb-4 text-sm text-neutral-300">Subscribe to our newsletter for updates and offers.</p>
                     <form className="flex flex-col bg-white border rounded-lg shadow-sm focus-within:ring-2 focus-within:ring-blue-500 max-w-md px-4 py-2 space-y-2">
                         <input
